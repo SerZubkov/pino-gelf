@@ -1,15 +1,19 @@
-# Pino GELF
+# Pino GELF 2
+
+Temporary fork of Pino GELF (<https://github.com/pinojs/pino-gelf>) to release support for TCP and HTTP.
 
 Pino GELF (pino-gelf) is a transport for the [Pino](https://www.npmjs.com/package/pino) logger. Pino GELF receives Pino logs from stdin and transforms them into [GELF](http://docs.graylog.org/en/2.1/pages/gelf.html) format before sending them to a remote [Graylog](https://www.graylog.org) server via UDP.
 
-### Contents
+## Contents
 
-* [Installation](##Installation)
-* [Usage](##Usage)
-* [Example I/O](##Example)
-* [GELF](##GELF)
-* [Log Level Mapping](##LogLevelMapping)
-* [Acknowledgements](##Acknowledgements)
+- [Pino GELF 2](#pino-gelf-2)
+  - [Contents](#contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Example](#example)
+  - [GELF](#gelf)
+  - [Log Level Mapping](#log-level-mapping)
+  - [Acknowledgements](#acknowledgements)
 
 ## Installation
 

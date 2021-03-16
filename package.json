@@ -1,5 +1,5 @@
 {
-  "name": "pino-gelf",
+  "name": "pino-gelf2",
   "version": "2.0.0",
   "description": "Convert Pino logs to GELF format and gzip ready for upload to Graylog",
   "main": "index.js",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pinojs/pino-gelf.git"
+    "url": "git+https://github.com/uwburn/pino-gelf2.git"
   },
-  "author": "Donald Robertson <drobertson@findmypast.com>",
+  "author": "Michele Tibaldi <tiboburn@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/pinojs/pino-gelf/issues"
+    "url": "https://github.com/uwburn/pino-gelf2/issues"
   },
-  "homepage": "https://github.com/pinojs/pino-gelf#readme",
+  "homepage": "https://github.com/uwburn/pino-gelf#readme",
   "dependencies": {
     "commander": "^2.20.0",
     "fast-json-parse": "^1.0.3",
